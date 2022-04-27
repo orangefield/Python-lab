@@ -1,5 +1,8 @@
 # python 자료형
 
+# boolean True, False(첫 글자 대문자)
+b1 = True
+
 # 정수
 n1 = 1
 
