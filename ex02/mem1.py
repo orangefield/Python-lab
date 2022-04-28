@@ -26,3 +26,28 @@ def multi(n1, n2=3):
 
 
 multi(2)
+
+
+# ** dict으로 변환하는 문법
+
+def my_dict(**data):
+    print(data)
+    pass
+
+
+my_dict(id=1, username="ssar")  # 키값 있어야 한다!
+
+
+# global 전역변수를 호출하는 방법
+n1 = 1
+
+
+def vartest():
+    global n1
+    n1 = 2
+
+
+print(n1)
+
+vartest()
+print(n1)
